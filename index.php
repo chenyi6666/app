@@ -7,6 +7,7 @@
  */
 header("Content-type:text/html;charset=UTF-8");
 ini_set('display_errors',1);
+date_default_timezone_set('PRC');
 require __DIR__."/autoload.php";
 $route= new \Route();
 $route->transfer();
